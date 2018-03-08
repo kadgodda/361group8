@@ -6,7 +6,7 @@ var path = require('path');
 var handlebars  = require('express-handlebars'), hbs;
 var app = express();
 
-require('./router')(app)
+require('./router')(app);
  
 app.set('port', 1337);
 app.set('views', path.join(__dirname, 'views'));

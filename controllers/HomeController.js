@@ -1,6 +1,8 @@
+var UserModel = require('../models/User')
+
 exports.Index = function(request, response){
-	response.title = 'Hello World';
-    response.render('home/Index');
+	var user = new UserModel("Test User");
+    response.render('home/Index', {user: user.test()});
 };
  
 exports.Other = function(request, response){
