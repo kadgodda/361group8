@@ -1,0 +1,9 @@
+{
+    "name": "361group8",
+    "description": "Winter 2018 - Group 8's project for 361",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.4.4",
+		"express-handlebars": "3.0.0"
+    }
+}
