@@ -1,5 +1,6 @@
 var User = function(phrase){
 	this.testPhrase = phrase;
+	this.passwordHash = "";
 };
 
 User.prototype.test = function(){
