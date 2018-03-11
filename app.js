@@ -8,7 +8,7 @@ var app = express();
 
 require('./router')(app);
  
-app.set('port', 1337);
+app.set('port', 80);
 app.set('views', path.join(__dirname, 'views'));
  
 /* express-handlebars - https://github.com/ericf/express-handlebars
